@@ -1,0 +1,64 @@
+body {
+            background-image: url("res.GIF"); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            font-family: monospace;
+            font-size: 25px;
+
+            
+        }
+        .header {
+            background-color: white;
+            color: orangered;
+            padding: 20px;
+            text-align: center;
+            border-radius: 15%;
+            color: red;
+            border-color: orange;
+            border-style: ridge;
+        }
+        .content {
+           padding: 20px;
+           background-color: sandybrown; 
+           border-radius: 5px;
+           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+           opacity: 0.9; /* Slight transparency */
+           color: brown;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: lightyellow;
+        }
+
+        .bg-custom {
+                  background-color: firebrick;
+        }
+
+        ul{ 
+          gap:20px;
+          }
+
+        li{
+          margin-right: 10px;
+        }
+
+    #poke {
+         width: 25%;
+    }
+
+
+.carousel-caption {
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  font-size: 10px;
+
+}
+
+ #form{
+      width: 30%;
+ }
+    
+    

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>pokemon</title>
+
+    <!-- SETUP BOOTSTAP: link to Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- link to JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Add style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+    <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+
+        <div class="container-fluid col-8 col-xl-8" id="navbar">
+            
+            <a class="navbar-brand" href="index.html"><img src="pik.png" id="poke"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="category.html"><b>Category</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html"><b>Form</b></a>
+                    </li>
+                </ul>
+
+        </div>
+
+        <form class="d-flex">
+                  <input class="form-control" type="text" placeholder="Search…">
+                  <button class="btn btn-success" type="button">Search</button>
+
+            </form>
+        </div>
+    </nav>
+
+
+    
+
+    <!-- Recipe Categories -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="pf.png" class="card-img-top" alt="pokepuff">
+                    <div class="card-body">
+                        <h5 class="card-title">Pokepuffs </h5>
+                        <p class="card-text"> Sweet yummy for both pokemon and humans</p>
+                        <button data-bs-toggle="modal" data-bs-target="#recipe1Modal">Recipe &raquo;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXO0OZKdjq9qtVb1UTsUqrSP0_ct8TXqDAWQ&s" class="card-img-top" alt="curry">
+                    <div class="card-body">
+                        <h5 class="card-title">Pokecurry</h5>
+                        <p class="card-text"> A vegetable based stew that everybody loves!</p>
+                        <button data-bs-toggle="modal" data-bs-target="#recipe2Modal">Recipe &raquo;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/66/7d/44/667d44cf0def60b21f3060e5654495fc.jpg" class="card-img-top" alt="Poketreat">
+                    <div class="card-body">
+                        <h5 class="card-title">Poketreat</h5>
+                        <p class="card-text">Only pokemon can eat it but its gives your partner a skill boost and their bellies are full!</p>
+                        <button data-bs-toggle="modal" data-bs-target="#recipe3Modal">Recipe &raquo;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk1mlxAG9W28YSelrpCvAEC3vcGU8emiRALBPBF4obu_rbzGeznk_pplvUk8eUZFzTYpM&usqp=CAU" class="card-img-top" alt="Poke treats">
+                    <div class="card-body">
+                        <h5 class="card-title">Assorted berries </h5>
+                        <p class="card-text"> Natural resources caught by pokemon delievered to your door it sure is fresh!</p>
+                        <button data-bs-toggle="modal" data-bs-target="#recipe4Modal">Recipe &raquo;</button>
+                    </div>
+                </div>
+            </div>
+            <di
+                /div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Recipe Modals -->
+    <!-- Modal Content for each recipe -->
+    <div class="modal fade" id="recipe1Modal" tabindex="-1" aria-labelledby="recipe1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="recipe1Label">Adobo Recipe</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="pf.png" class="img" alt="Pokepuffs">
+                    <p>Ingredients:</p>
+                    <ul>
+                        <li>1 gram of sweet loom</li>
+                        <li>1/2 cup of mild electricity</li>
+                        <li>1/4 MooMoo milk </li>
+                        <li> 5 grams of sugar</li>
+                        <li>sprinkles</li>
+                        
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                        <li>Bake it for 2 hours at low heat</li>
+                        <li>sprinkle with your choice of toppings</li>
+                        <li>Then serve then eat!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="recipe2Modal" tabindex="-1" aria-labelledby="recipe2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="recipe2Label">pokecurry</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" class="img" alt="Pokecurry">
+                    <p>Ingredients:</p>
+                    <ul>
+                        <li>Slow poke tail</li>
+                        <li>8 cups water</li>
+                        <li>1 packet of magikarp water</li>
+                        <li>2 tomatoes, quartered</li>
+                        <li>1 onion, quartered</li>
+                        <li>Vegetables (eggplant, radish, string beans, spinach)</li>
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                        <li>smoke with onion and tomatoes until tender.</li>
+                        
+                        <li>Season with fish sauce or salt to taste. Serve hot.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="recipe3Modal" tabindex="-1" aria-labelledby="recipe3Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="recipe3Label">poketreat recipe</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="lechon.jpg" class="img" alt="Poketreat">
+                    <p>Ingredients:</p>
+                    <ul>
+                        <li>1 vegetables any</li>
+                        <li>Salt and pepper not ALOT!</li>
+                        <li>Garlic, onion, and lemongrass (for stuffing)</li>
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                        <li>Clean and season the vegetabls inside and out with salt and pepper.</li>
+                        <li> Bake or smoke at low heat</li>
+                        <li>eat and enjoy!.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="recipe4Modal" tabindex="-1" aria-labelledby="recipe4Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="recipe4Label">Mixed berries</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="karekare.jpg" class="img" alt="Mixed berries">
+                    <p>Ingredients:</p>
+                    <ul>
+                        <li> I dont know how my pokemon partner(Talonflame) does it he just gets it fresh always for our shop</li>
+                    
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                        <li> Wash and enjoy!</li>
+                        
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="recipe5Modal" tabindex="-1" aria-labelledby="recipe5Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="recipe5Label">Halo-Halo Recipe</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="halohalo.jpg" class="img" alt="Halo-Halo">
+                    <p>Ingredients:</p>
+                    <ul>
+                        <li>1 cup shaved ice</li>
+                        <li>1/2 cup evaporated milk</li>
+                        <li>Various fruits (banana, jackfruit, etc.)</li>
+                        <li>Leche flan</li>
+                        <li>Ube halaya</li>
+                        <li>Scoops of ice cream</li>
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                        <li>Layer fruits and toppings in a tall glass.</li>
+                        <li>Add shaved ice and pour milk over it.</li>
+                        <li>Top with ice cream and serve immediately.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="recipe6Modal" tabindex="-1" aria-labelledby="recipe6Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="recipe6Label">Pancit Recipe</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="pancit.jpg" class="img" alt="Pancit">
+                    <p>Ingredients:</p>
+                    <ul>
+                        <li>250g bihon (rice noodles)</li>
+                        <li>1 cup chicken breast, shredded</li>
+                        <li>1 cup assorted vegetables (carrots, cabbage, celery)</li>
+                        <li>2 tbsp soy sauce</li>
+                        <li>2 cloves garlic, minced</li>
+                        <li>1 onion, sliced</li>
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                        <li>Sauté garlic and onion. Add chicken and cook until done.</li>
+                        <li>Add vegetables and soy sauce. Stir-fry for 2 minutes.</li>
+                        <li>Soak bihon in water, then drain and add to the pan.</li>
+                        <li>Mix well and cook until heated through. Serve hot.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    </body>
+</html>
